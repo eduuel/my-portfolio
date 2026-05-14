@@ -1,46 +1,36 @@
 import { motion } from "framer-motion"
 
 function Projects() {
+const projects = [
 
-  const projects = [
-    {
-      title: "Denso Tracker",
-      description:
-        "A modern MERN stack inventory and spare parts tracking system with dashboard analytics and product management.",
-      tech: "React • Node.js • MongoDB",
-    },
+  {
+    title: "Hirundo Security",
+    description:
+      "Professional security company website with modern responsive UI, business-focused design, and service showcase.",
+    tech: "Vue.js • Tailwind CSS • Nuxt.js",
+    live: "https://www.hirundosecurity.com",
+  },
 
-    {
-      title: "Food Ordering App",
-      description:
-        "Android food ordering application with cart system, checkout functionality, and SQLite database integration.",
-      tech: "Java • Android • SQLite",
-    },
+  {
+    title: "Hirundo Business Website",
+    description:
+      "Responsive modern company website developed for client presentation and digital business visibility.",
+    tech: "Modern Web Development",
+    live: "https://site-znozxfbbl.godaddysites.com",
+  },
 
-    {
-      title: "Hirundo Security",
-      description:
-        "Professional security company website with responsive modern UI and service showcase.",
-      tech: "React • Tailwind CSS",
-    },
+  {
+    title: "Denso Tracker",
+    description:
+      "Modern MERN stack inventory and spare parts tracking system with dashboard analytics, authentication, and reporting.",
+    tech: "React • Node.js • MongoDB",
+    live: "#",
+  },
 
-    {
-      title: "Electric Car Website",
-      description:
-        "Modern electric vehicle showcase website with clean animations and responsive layouts.",
-      tech: "React • CSS",
-    },
-
-    {
-      title: "Reminder App",
-      description:
-        "Simple mobile reminder application with notifications and task management functionality.",
-      tech: "Kotlin • Android",
-    },
-  ]
+]
 
   return (
-    <section className="py-24 px-6 bg-slate-900">
+    <section id="projects" className="py-24 px-6 bg-slate-900">
 
       <div className="max-w-7xl mx-auto">
 
